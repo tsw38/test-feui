@@ -1,3 +1,16 @@
+@use "sass:color";
+@import "@spothero/core/vendor/breakpoint";
+@import "@spothero/core/utils/defaults";
+@import "@spothero/core/utils/mixins/center";
+@import "@spothero/core/utils/mixins/ellipsis";
+@import "@spothero/core/utils/mixins/font-family";
+@import "@spothero/core/utils/mixins/font-size";
+@import "@spothero/core/utils/placeholders/clearfix";
+@import "@spothero/core/utils/placeholders/image-replacement";
+
+@import "@spothero/core/bootstrap";
+@import "@spothero/ui/lib/index";
+
 .App {
   text-align: center;
 }
